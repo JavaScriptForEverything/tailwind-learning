@@ -1,0 +1,12 @@
+{
+  "name": "tailwind",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+	"scripts": {
+		"tailwind": "tailwindcss --input ./src/tailwind.css --output ./build/tailwind.css --watch"
+	},
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  }
+}
